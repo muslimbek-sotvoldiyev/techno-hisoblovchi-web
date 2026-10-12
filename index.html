@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#152339">
+  <meta name="description" content="Radiator va issiq pol uchun umumiy quvvatni hisoblang va mos kotyolni toping.">
+  <title>Techno hisoblovchi — TECHNO777</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script src="calculator.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><img src="logo.png" alt="Techno777 logosi" width="88" height="88"><div><strong>TECHNO777</strong><p>Isitish tizimi hisobi</p></div></header>
+    <section class="intro"><span class="eyebrow">TECHNO HISOBLOVCHI</span><h1>Kotyol quvvatini hisoblang</h1><p>Miqdorlarni kiriting. Bo‘sh maydonlar 0 hisoblanadi.</p></section>
+    <div class="layout">
+      <form id="calculator" autocomplete="off">
+        <div class="field"><label for="sections"><span class="icon" aria-hidden="true">▥</span> Qovurg‘ali radiator</label><div class="input-wrap"><input id="sections" type="text" inputmode="numeric" placeholder="0" aria-describedby="sections-result"><span>seksiya</span></div><p class="equation" id="sections-result">0,00 kW</p></div>
+        <div class="field"><label for="radiator"><span class="icon" aria-hidden="true">▤</span> Panel radiator</label><div class="input-wrap"><input id="radiator" type="text" inputmode="decimal" placeholder="0" aria-describedby="radiator-result"><span>metr</span></div><p class="equation" id="radiator-result">0,00 kW</p></div>
+        <div class="field"><label for="floor"><span class="icon" aria-hidden="true">▦</span> Issiq pol</label><div class="input-wrap"><input id="floor" type="text" inputmode="decimal" placeholder="0" aria-describedby="floor-result"><span>m²</span></div><p class="equation" id="floor-result">0,00 kW</p></div>
+        <button type="reset">↻ &nbsp; Hisobni tozalash</button>
+      </form>
+      <aside class="summary" aria-live="polite" aria-atomic="true"><span class="eyebrow">UMUMIY QUVVAT</span><p class="total" id="total">0,00 <span>kW</span></p><div class="divider"></div><p class="caption">Mos kotyol quvvati</p><p class="boiler" id="boiler">Miqdorlarni kiriting</p><p class="note">Siz belgilagan koeffitsiyentlar bo‘yicha hisob.</p><div class="capacities"><p>Mavjud kotyol quvvatlari</p><div><span>25</span><span>35</span><span>50</span><span>75</span><span>100</span><span>200 kW</span></div></div></aside>
+    </div>
+    <footer>TECHNO777 · Isitish tizimi hisobi</footer>
+  </main>
+</body>
+</html>
